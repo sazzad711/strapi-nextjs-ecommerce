@@ -5,9 +5,10 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "start": "node server.js"
   },
   "devDependencies": {},
   "dependencies": {
@@ -34,9 +35,11 @@
   "strapi": {
     "uuid": "e69b4878-8617-4881-9bb6-ba54be6e6cc7"
   },
-  "engines": {
+ 
+ "engines": {
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.x"
   },
+  
   "license": "MIT"
 }
